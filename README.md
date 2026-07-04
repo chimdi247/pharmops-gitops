@@ -103,7 +103,7 @@ Final Kubernetes manifests for auth-service
 ArgoCD Application config for a Helm service:
 ```yaml
 source:
-  repoURL: https://github.com/ravdy/pharmops-gitops.git
+  repoURL: https://github.com/chimdi247/pharmops-gitops.git
   path: pharma-service
   helm:
     valueFiles:
@@ -113,7 +113,7 @@ source:
 ArgoCD Application config for pharma-ui (raw manifests):
 ```yaml
 source:
-  repoURL: https://github.com/ravdy/pharmops-gitops.git
+  repoURL: https://github.com/chimdi247/pharmops-gitops.git
   path: k8s-manifests/pharma-ui      # ArgoCD auto-detects plain YAML
 ```
 

@@ -8,7 +8,7 @@ grafana:
     enabled: true
     ingressClassName: nginx
     hosts:
-      - monitoring.pharma.internal
+      - monitoring.vhbj.site
     paths:
       - /
     annotations:
@@ -25,9 +25,9 @@ alertmanager:
   enabled: true
   config:
     global:
-      smtp_smarthost: "smtp.pharma.com:587"
-      smtp_from: "alertmanager@pharma.com"
-      smtp_auth_username: "alertmanager@pharma.com"
+      smtp_smarthost: "smtp.gmail.com:587"
+      smtp_from: "chimdi247@gmail.com"
+      smtp_auth_username: "chimdi247@gmail.com"
       smtp_auth_password: "changeme"
     route:
       group_by: ["alertname", "cluster", "service"]

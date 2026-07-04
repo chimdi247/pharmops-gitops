@@ -7,6 +7,6 @@ metadata:
     app: pharma-ui
     version: "1.0.0"
 data:
-  API_BASE_URL: "http://dev.pharma.internal/api"
-  AUTH_BASE_URL: "http://dev.pharma.internal/auth"
+  API_BASE_URL: "http://dev.vhbj.site/api"
+  AUTH_BASE_URL: "http://dev.vhbj.site/auth"
   ENV: dev

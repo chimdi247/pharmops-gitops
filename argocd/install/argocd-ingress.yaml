@@ -14,10 +14,10 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-        - argocd.pharma.internal
+        - argocd.vhbj.site
       secretName: argocd-tls
   rules:
-    - host: argocd.pharma.internal
+    - host: argocd.vhbj.site
       http:
         paths:
           - path: /
